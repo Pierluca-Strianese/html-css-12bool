@@ -1,0 +1,15 @@
+[class*="col-"] {
+    min-height: 40px;
+    background-color: #2D6AF1;
+    color: white;
+    border: 2px solid white;
+    padding: 1rem;
+
+    font-size: 12px;
+    text-align: center;
+}
+
+.row>[class*="col-"]>.row>[class*="col-"] {
+    background-color: #66DE73;
+    border: 1px solid #2D6AF1;
+}
